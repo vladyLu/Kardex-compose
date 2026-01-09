@@ -2,6 +2,9 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("com.google.devtools.ksp")
+    id("com.google.dagger.hilt.android")
+    id("kotlin-kapt")
 }
 
 android {
@@ -59,4 +62,21 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     implementation("androidx.compose.material:material-icons-extended")
+
+    //Room
+    val room_version = "2.8.3"
+    implementation("androidx.room:room-runtime:${room_version}")
+    implementation("androidx.room:room-ktx:${room_version}")
+    annotationProcessor("androidx.room:room-compiler:$room_version")
+    ksp("androidx.room:room-compiler:2.8.3")
+
+    //Dagger
+    implementation("com.google.dagger:hilt-android:2.51.1")
+    implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
+    kapt("com.google.dagger:hilt-android-compiler:2.51.1")
+    implementation ("androidx.navigation:navigation-compose:2.5.0")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1'")
+
+    implementation("com.google.accompanist:accompanist-flowlayout:0.30.1")
 }
