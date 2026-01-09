@@ -1,4 +1,4 @@
-package com.example.marcelina_1
+package com.example.marcelina_1.presentacion.homeScreen
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -18,7 +18,10 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.marcelina_1.presentacion.asistenciaScreen.AsistenciaScreen
+import com.example.marcelina_1.presentacion.estudianteScreen.EstudiantesScreen
 import com.example.marcelina_1.navigation.drawerItems
+import com.example.marcelina_1.presentacion.cursosScreen.CursosScreen
 import com.example.marcelina_1.ui.theme.CalificacionesScreen
 import kotlinx.coroutines.launch
 

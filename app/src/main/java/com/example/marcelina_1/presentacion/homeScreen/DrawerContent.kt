@@ -1,4 +1,4 @@
-package com.example.marcelina_1
+package com.example.marcelina_1.presentacion.homeScreen
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.example.marcelina_1.presentacion.homeScreen.DrawerItem
 
 @Composable
 fun DrawerContent(
@@ -43,5 +44,4 @@ fun DrawerContent(
             )
         }
     }
-
 }

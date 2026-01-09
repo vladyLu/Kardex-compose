@@ -1,4 +1,4 @@
-package com.example.marcelina_1
+package com.example.marcelina_1.presentacion.estudianteScreen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

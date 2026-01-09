@@ -1,4 +1,4 @@
-package com.example.marcelina_1
+package com.example.marcelina_1.presentacion.homeScreen
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

@@ -5,7 +5,7 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Grade
 import androidx.compose.material.icons.filled.People
 import androidx.compose.material.icons.filled.School
-import com.example.marcelina_1.DrawerItem
+import com.example.marcelina_1.presentacion.homeScreen.DrawerItem
 
 val drawerItems = listOf(
     DrawerItem(

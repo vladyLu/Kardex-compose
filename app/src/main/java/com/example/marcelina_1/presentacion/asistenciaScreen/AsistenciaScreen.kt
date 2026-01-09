@@ -1,4 +1,4 @@
-package com.example.marcelina_1
+package com.example.marcelina_1.presentacion.asistenciaScreen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -8,8 +8,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
-fun CursosScreen(){
+fun AsistenciaScreen(){
     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text("Pantalla Cursos")
+        Text("Pantalla Asistencia")
     }
 }
